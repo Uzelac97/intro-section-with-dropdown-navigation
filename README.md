@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL:
+- Live Site URL: https://uzelac97.github.io/intro-section-with-dropdown-navigation/
 
 ### Built with
 
