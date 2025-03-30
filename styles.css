@@ -326,7 +326,7 @@ h2 {
     cursor: pointer;
   }
 
-  span:active {
+  span:hover {
     cursor: pointer;
     color: var(--clr-Almost-black);
     text-shadow: 0 0 1px currentColor;
