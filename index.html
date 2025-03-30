@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <main>
+      <div class="overlay"></div>
+      <div class="wrapper">
+        <header>
+          <h1>snap</h1>
+
+          <!-- Mobile Sidebar -->
+          <div class="menu-icon">
+            <img src="./images/icon-menu.svg" alt="icon-menu" />
+          </div>
+          <div class="sidebar">
+            <img
+              src="./images/icon-close-menu.svg"
+              class="close-menu"
+              alt="icon-close-menu"
+            />
+            <ul class="menu">
+              <li>
+                <div class="dropdown-trigger-mobile">
+                  <span>Features</span>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt=""
+                    class="arrow-down"
+                  />
+                </div>
+                <ul class="mobile-dropdown">
+                  <li>
+                    <img src="./images/icon-todo.svg" alt="icon-todo" />
+                    <a href="#">Todo List</a>
+                  </li>
+                  <li>
+                    <img src="./images/icon-calendar.svg" alt="icon-calendar" />
+                    <a href="#">Calendar</a>
+                  </li>
+                  <li>
+                    <img
+                      src="./images/icon-reminders.svg"
+                      alt="icon-reminders"
+                    />
+                    <a href="#">Reminders</a>
+                  </li>
+                  <li>
+                    <img src="./images/icon-planning.svg" alt="icon-planning" />
+                    <a href="#">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="dropdown-trigger-mobile">
+                  <span>Company</span>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    alt="icon-arrow-down"
+                    class="arrow-down"
+                  />
+                </div>
+                <ul class="mobile-dropdown">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+
+            <div class="auth-links">
+              <a href="#">Login</a>
+              <button>Register</button>
+            </div>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <nav>
+            <ul>
+              <li class="dropdown-toggle">
+                <div class="dropdown-trigger">
+                  <span>Features</span>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    class="arrow-down"
+                    alt="icon-arrow-down"
+                  />
+                </div>
+                <ul class="dropdown-menu">
+                  <li>
+                    <img src="./images/icon-todo.svg" alt="icon-todo" />
+                    <a href="#">Todo List</a>
+                  </li>
+                  <li>
+                    <img src="./images/icon-calendar.svg" alt="icon-calendar" />
+                    <a href="#">Calendar</a>
+                  </li>
+                  <li>
+                    <img
+                      src="./images/icon-reminders.svg"
+                      alt="icon-reminders"
+                    />
+                    <a href="#">Reminders</a>
+                  </li>
+                  <li>
+                    <img src="./images/icon-planning.svg" alt="icon-planning" />
+                    <a href="#">Planning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-toggle">
+                <div class="dropdown-trigger">
+                  <span>Company</span>
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    class="arrow-down"
+                    alt="icon-arrow-down"
+                  />
+                </div>
+                <ul class="dropdown-menu">
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+              <li>
+                <div class="auth-box">
+                  <a href="#">Login</a>
+                  <button>Register</button>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="main-content">
+          <div class="image-hero"></div>
+          <div class="text-content">
+            <h2>Make remote work</h2>
+            <p>
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button>Learn more</button>
+            <div class="ads">
+              <img src="./images/client-databiz.svg" alt="databiz-img" />
+              <img src="./images/client-audiophile.svg" alt="audiophile-img" />
+              <img src="./images/client-meet.svg" alt="meet-img" />
+              <img src="./images/client-maker.svg" alt="maker-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
